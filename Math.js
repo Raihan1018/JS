@@ -38,15 +38,28 @@
  * 2. quiz app
  * 3. temperature
  */
-const x = 112;
-const y = 13;
-const z = 12;
-const maxNumber = Math.max(x,y,z)
-// console.log(maxNumber)
-// console.log(`Max number is ${Math.max(x,y,z)}`)
+// const x = 112;
+// const y = 13;
+// const z = 12;
+// const maxNumber = Math.max(x,y,z)
+// // console.log(maxNumber)
+// // console.log(`Max number is ${Math.max(x,y,z)}`)
 
-// operation in with an array
-const numbers = [2,3,53,3,4,23,33]
-console.log(`Largest Number is: ${Math.max(...numbers)} `) // ... -> spread operator. it's copy the array
+// // operation in with an array
+// const numbers = [2,3,53,3,4,23,33]
+// console.log(`Largest Number is: ${Math.max(...numbers)} `) // ... -> spread operator. it's copy the array
 
-console.log(`Lowest number is" ${Math.min(...numbers)}`)
+// console.log(`Lowest number is" ${Math.min(...numbers)}`)
+
+
+
+// toFixed()
+// const price = 34.76543456787653
+// console.log(price.toFixed(4)) // here, 4 means after ( . ) how many numbers you want
+
+
+
+// parseInt() -> convert string (only digits) to a numbers
+const st1 = '443'
+console.log(`Before converting -> ${typeof(st1)}`)
+console.log(parseInt(st1))
